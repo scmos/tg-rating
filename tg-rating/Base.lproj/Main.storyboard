@@ -15,6 +15,15 @@
                     <view key="view" contentMode="scaleToFill" id="XZD-ts-hJq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LEFT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="71n-ui-T7d">
+                                <rect key="frame" x="186" y="411" width="89" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="bnF-tY-t5e"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -22,12 +31,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PTP-De-dIz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-726" y="849"/>
+            <point key="canvasLocation" x="-803" y="1042"/>
         </scene>
         <!--Gesture item-->
         <scene sceneID="OQn-CA-34w">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kXg-cp-45E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="iDs-Fr-Q86" userLabel="Gesture item" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xpT-gz-qFC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -41,6 +49,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Gestos" image="Gestures" id="4wP-Qz-1uU"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kXg-cp-45E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="uwd-fo-2VD" userLabel="Gesture Right">
                     <connections>
                         <segue destination="5Vi-Pm-2na" kind="show" id="tki-Rw-RQt"/>
@@ -61,6 +70,15 @@
                     <view key="view" contentMode="scaleToFill" id="egR-hk-fDc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="RIGHT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rzi-kx-kaO">
+                                <rect key="frame" x="186" y="411" width="115" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="b4M-P6-4ev"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -68,7 +86,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U72-P1-Vsm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1050" y="358"/>
+            <point key="canvasLocation" x="858" y="1042"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="dEI-0g-26d">
